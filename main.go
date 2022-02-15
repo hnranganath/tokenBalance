@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// Create a client instance to connect to our providr
-	client, err := ethclient.Dial("https://mainnet.infura.io/v3/78734b5c6a9e48948185dbd0e18a8665")
+	client, err := ethclient.Dial("http://localhost:7545")
 
 	if err != nil {
 		fmt.Println(err)
